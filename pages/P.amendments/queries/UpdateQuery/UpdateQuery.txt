@@ -1,0 +1,12 @@
+UPDATE p."amendments" SET
+		"created" = '{{update_form.fieldState.created.isVisible ? update_form.formData.created : update_form.sourceData.created}}',
+		"opportunity_id" = '{{update_form.fieldState.opportunity_id.isVisible ? update_form.formData.opportunity_id : update_form.sourceData.opportunity_id}}',
+    "docusign_id" = '{{update_form.fieldState.docusign_id.isVisible ? update_form.formData.docusign_id : update_form.sourceData.docusign_id}}',
+		"merchant_name" = '{{update_form.fieldState.merchant_name.isVisible ? update_form.formData.merchant_name : update_form.sourceData.merchant_name}}',
+		"product_bundle" = '{{update_form.fieldState.product_bundle.isVisible ? update_form.formData.product_bundle : update_form.sourceData.product_bundle}}',
+		"planned_go_live_date" = '{{update_form.fieldState.planned_go_live_date.isVisible ? update_form.formData.planned_go_live_date : update_form.sourceData.planned_go_live_date}}',
+		"billing_start_date" = '{{update_form.fieldState.billing_start_date.isVisible ? update_form.formData.billing_start_date : update_form.sourceData.billing_start_date}}',
+		"expiration_of_initial_term" = '{{update_form.fieldState.expiration_of_initial_term.isVisible ? update_form.formData.expiration_of_initial_term : update_form.sourceData.expiration_of_initial_term}}',
+		"billing_frequency" = '{{update_form.fieldState.billing_frequency.isVisible ? update_form.formData.billing_frequency : update_form.sourceData.billing_frequency}}',
+		"approved_by" = '{{update_form.fieldState.approved_by.isVisible ? update_form.formData.approved_by : update_form.sourceData.approved_by}}'
+WHERE "created_at" = {{data_table.selectedRow.created_at}};
