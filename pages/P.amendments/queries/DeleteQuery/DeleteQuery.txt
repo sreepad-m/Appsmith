@@ -1,0 +1,2 @@
+DELETE FROM p."amendments"
+  WHERE "created_at" = {{data_table.triggeredRow.created_at}};

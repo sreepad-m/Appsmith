@@ -1,0 +1,2 @@
+DELETE FROM hkthaoapp."menu"
+  WHERE "id" = {{data_table.triggeredRow.id}};

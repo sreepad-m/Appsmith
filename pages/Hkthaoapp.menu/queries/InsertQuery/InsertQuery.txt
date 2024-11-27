@@ -1,0 +1,16 @@
+INSERT INTO hkthaoapp."menu" (
+	"id",
+	"name",
+	"email",
+	"type",
+	"is_deleted",
+	"image",
+	"url")
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.type}}',
+	'{{insert_form.formData.is_deleted}}',
+	'{{insert_form.formData.image}}',
+	'{{insert_form.formData.url}}');

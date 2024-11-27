@@ -1,0 +1,8 @@
+UPDATE hkthaoapp."menu" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"email" = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+    "type" = '{{update_form.fieldState.type.isVisible ? update_form.formData.type : update_form.sourceData.type}}',
+		"is_deleted" = '{{update_form.fieldState.is_deleted.isVisible ? update_form.formData.is_deleted : update_form.sourceData.is_deleted}}',
+		"image" = '{{update_form.fieldState.image.isVisible ? update_form.formData.image : update_form.sourceData.image}}',
+		"url" = '{{update_form.fieldState.url.isVisible ? update_form.formData.url : update_form.sourceData.url}}'
+WHERE "id" = {{data_table.selectedRow.id}};
