@@ -31,7 +31,7 @@
     }
   },
   "columnOrder": [],
-  "columnUpdatedAt": 1732686905335,
+  "columnUpdatedAt": 1732776382247,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -64,9 +64,9 @@
   "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
-  "key": "7jjmbm6gfg",
+  "key": "3sbftzt3zs",
   "label": "Data",
-  "leftColumn": 33,
+  "leftColumn": 0,
   "minWidth": 450,
   "mobileBottomRow": 88,
   "mobileLeftColumn": 0,
@@ -79,7 +79,7 @@
   "primaryColumns": {},
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 33,
   "searchKey": "",
   "tableData": "",
   "textSize": "0.875rem",
@@ -88,6 +88,6 @@
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
-  "widgetId": "0kx3ituwuk",
-  "widgetName": "Table1"
+  "widgetId": "2rhjdbtue2",
+  "widgetName": "Table3"
 }

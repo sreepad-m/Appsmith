@@ -11,14 +11,6 @@
     {
       "id": "Page1",
       "isDefault": true
-    },
-    {
-      "id": "P.amendments",
-      "isDefault": false
-    },
-    {
-      "id": "Page2",
-      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
