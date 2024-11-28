@@ -1,0 +1,24 @@
+INSERT INTO p."amendments" (
+	"created_at",
+	"created",
+	"opportunity_id",
+	"docusign_id",
+	"merchant_name",
+	"product_bundle",
+	"planned_go_live_date",
+	"billing_start_date",
+	"expiration_of_initial_term",
+	"billing_frequency",
+	"approved_by")
+VALUES (
+	'{{insert_form.formData.created_at}}',
+	'{{insert_form.formData.created}}',
+	'{{insert_form.formData.opportunity_id}}',
+	'{{insert_form.formData.docusign_id}}',
+	'{{insert_form.formData.merchant_name}}',
+	'{{insert_form.formData.product_bundle}}',
+	'{{insert_form.formData.planned_go_live_date}}',
+	'{{insert_form.formData.billing_start_date}}',
+	'{{insert_form.formData.expiration_of_initial_term}}',
+	'{{insert_form.formData.billing_frequency}}',
+	'{{insert_form.formData.approved_by}}');
