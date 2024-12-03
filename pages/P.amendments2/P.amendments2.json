@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "673f21f27ebfa14afdaa29c9_c3bd256f-d4c8-43ac-a869-336a02ffab63",
+  "gitSyncId": "673f488825b5f53f7c6b6211_45fb8d98-0faa-49af-9130-e02cd1d7d3d3",
   "unpublishedPage": {
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1170,
+          "bottomRow": 860,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 900,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1174,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 125,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 90,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "P.amendments2",
+    "slug": "p-amendments2"
   }
 }
